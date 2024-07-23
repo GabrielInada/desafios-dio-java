@@ -1,5 +1,8 @@
 package Interfaces;
 
-public class AparelhoTelefone {
-    
+public interface AparelhoTelefone {
+    public void ligar(String nome);
+    public void atender();
+    public void IniciarCorreioVoz();
+
 }
